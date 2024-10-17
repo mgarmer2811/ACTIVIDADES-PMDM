@@ -31,3 +31,23 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Built application files
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle Wrapper Files
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Miscellaneous Files
+.DS_Store
+*.lock
+*.tmp
+
+# User-Specific Configurations
+*.kaptkotlin*
