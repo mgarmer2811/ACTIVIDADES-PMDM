@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#deeaf6">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:text="layout1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#fde89b">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/border">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:text="layout2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@+id/layout1"
+        android:background="#f5b183">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@+id/layout1"
+        android:background="@drawable/border">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:text="layout3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/layout2"
+        android:layout_alignParentRight="true"
+        android:background="#a8d18c">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/layout2"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/border">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="175dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#8297b0"
+        android:text="layout4"
+        tools:ignore="TextContrastCheck">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="175dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout5"
+        android:text="layout5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/layout4"
+        android:layout_toRightOf="@+id/layout4"
+        android:background="#fde89b">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/layout4"
+        android:layout_toRightOf="@+id/layout4"
+        android:background="@drawable/border">
+    </RelativeLayout>
+
+</RelativeLayout>
